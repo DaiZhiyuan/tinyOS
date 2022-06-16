@@ -1,0 +1,11 @@
+# Minimum value of core_freq used for dynamic frequency clocking.
+core_freq_min=500
+
+# Second-stage loader and the main firmware output diagnostic information 
+# to UART0.
+uart_2ndstage=1
+
+# The stub is a small piece of ARM code that is run before the kernel. 
+# Its job is to set up low-level hardware like the interrupt controller 
+# before passing control to the kernel.
+armstub=armstub-new.bin
