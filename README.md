@@ -60,3 +60,6 @@ Support for:
         - [x] Number
         - [x] Argument
         - [x] Kill process
+
+A screenshots where, we create 4 processes, run them and kill them:
+![asciicast-png](doc/images/tinyOS.png)
